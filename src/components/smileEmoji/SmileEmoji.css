@@ -1,0 +1,61 @@
+.smiley {
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.face {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: white;
+   animation-name: smile-animation;
+   animation-duration: 3s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+@keyframes smile-animation {
+
+   0%,
+   100% {
+      transform: translateY(0);
+   }
+
+   50% {
+      transform: translateY(10px);
+   }
+}
+
+.wink .eye {
+   opacity: 0;
+}
+
+.eye {
+   position: absolute;
+   top: 40px;
+   width: 20px;
+   height: 20px;
+   background-color: black;
+   border-radius: 50%;
+}
+
+.left {
+   left: 30px;
+}
+
+.right {
+   right: 30px;
+}
+
+.mouth {
+   position: absolute;
+   top: 70px;
+   left: 50px;
+   width: 40px;
+   height: 5px;
+   background-color: black;
+   border-radius: 10px;
+}

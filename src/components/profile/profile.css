@@ -1,0 +1,132 @@
+.container-profile {
+    max-width: 1356px;
+    width: 100%;
+    margin: 50px  5% 50px 5%;
+    /* background-color: rgb(231, 228, 228); */
+    display: flex;
+}
+
+.left__block, .right__block__profile {
+    padding: 20px 40px 0 40px;
+    position: relative;
+}
+
+.h1__item__box {
+    font-family: 'GolosText';
+    font-size: 28px;
+}
+
+.h1__light {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.h1__item__box::after {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #D9D9D9;
+}
+
+.left__block {
+    max-width: 650px;
+    width: 100%;
+    height: 850px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 2px 17px 1px rgba(0, 0, 0, 0.03);
+}
+
+
+.right__blocks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin-left: 55px; */
+  }
+
+.right__block__profile {
+    max-width: 650px;
+    width: 100%;
+    height: 406px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 2px 17px 1px rgba(0, 0, 0, 0.03);
+}
+
+.right__block__profile:nth-of-type(2) {
+    margin-top: 40px;
+}
+
+.user__date__block {
+    margin-top: 55px;
+    font-size: 22px;
+}
+
+.info__user__p {
+    font-family: 'GolosText';
+    font-weight: 400;
+}
+
+.info__user__p span {
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.info__user__p a {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #008EC6;
+}
+
+.info__user__p:not(:first-child) {
+    margin-top: 20px;
+}
+
+.changes__block {
+    margin-top: 35px;
+}
+
+.form__changes {
+    margin-top: 0;
+}
+
+.input__form {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 7px;
+    font-size: 20px;
+    font-family: 'GolosText';
+}
+
+.input__form:not(:first-child) {
+    margin-top: 25px;
+}
+
+.input__form::placeholder {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.btn__save {
+    margin-top: 40px;
+    font-family: 'GolosText';
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    max-width: 150px;
+    width: 100%;
+    height: 50px;
+    background-color: #21A6D2;
+    border-radius: 10px;
+}
+
+.btn__exit {
+    margin-left: 30px;
+}
